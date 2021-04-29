@@ -16,7 +16,7 @@ To see the issue do `npm run test`
 
       2 | import callingRandom from "./callingRandom.js";
       3 |
-    > 4 | jest.mock("Random.id");
+    > 4 | jest.mock("Random.");
         |      ^
       5 | jest.mockImplementation(() => "someRandomString");
       6 |
