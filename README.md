@@ -12,7 +12,7 @@ To see the issue do `npm run test`
  FAIL  ./callingRandom.test.js
   ● Test suite failed to run
 
-    Cannot find module 'Random.id' from 'callingRandom.test.js'
+    Cannot find module 'Random' from 'callingRandom.test.js'
 
       2 | import callingRandom from "./callingRandom.js";
       3 |
@@ -24,5 +24,6 @@ To see the issue do `npm run test`
 
       at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:306:11)
       at Object.<anonymous> (callingRandom.test.js:4:6)
+
 
 ```
